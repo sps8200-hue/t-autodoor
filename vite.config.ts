@@ -1,8 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/t-autodoor/', // 반드시 저장소 이름인 t-autodoor를 앞뒤로 /와 함께 써주세요!
+  // 깃허브 저장소 이름을 정확히 넣어주어 주소 경로를 맞춥니다.
+  base: '/t-autodoor/', 
+  build: {
+    // 빌드된 파일들이 저장될 위치를 명시합니다.
+    outDir: 'dist',
+  }
 })
