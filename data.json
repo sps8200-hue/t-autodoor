@@ -1,8 +1,0 @@
-{
-  "companyName": "태양강화자동문",
-  "products": [
-    { "id": 1, "name": "강화유리 자동문", "description": "튼튼하고 안전한 시공" },
-    { "id": 2, "name": "슬라이딩 도어", "description": "부드러운 작동" }
-  ],
-  "contact": "02-2663-6153"
-}
