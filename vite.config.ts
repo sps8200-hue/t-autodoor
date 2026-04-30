@@ -1,11 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // <-- 이 부분이 핵심입니다. 모든 파일을 현재 위치에서 찾게 합니다.
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-  }
+  base: '/t-autodoor/', // 반드시 저장소 이름인 t-autodoor를 앞뒤로 /와 함께 써주세요!
 })
