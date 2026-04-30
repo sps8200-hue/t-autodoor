@@ -340,7 +340,7 @@ export default function App() {
     
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/data');
+        const response = await fetch('/data.json');
         if (response.ok) {
           const data = await response.json();
           
